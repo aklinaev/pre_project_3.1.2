@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 79856425
+    url: jdbc:mysql://localhost:3306/hiber221
+  jpa:
+    show-sql: true
