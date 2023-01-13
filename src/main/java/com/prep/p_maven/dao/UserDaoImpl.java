@@ -24,7 +24,6 @@ public class UserDaoImpl implements UserDao {
                 .getResultList();
     }
 
-
     @Override
     @Transactional
     public void addUser(User user) {

@@ -1,5 +1,6 @@
 package com.prep.p_maven.service;
 
+import com.prep.p_maven.dao.UserDao;
 import com.prep.p_maven.dao.UserDaoImpl;
 import com.prep.p_maven.model.User;
 import org.springframework.stereotype.Service;
@@ -7,9 +8,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl implements UserService {
-    private UserDaoImpl userDao;
+    private UserDao userDao;
 
-    public UserServiceImpl(UserDaoImpl userDao) {
+    public UserServiceImpl(UserDao userDao) {
         this.userDao = userDao;
     }
 
